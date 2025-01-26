@@ -9,5 +9,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8000
 CMD ["python", "bot.py"]
