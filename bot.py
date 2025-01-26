@@ -216,8 +216,8 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# Запуск бота
-bot.run(os.getenv('DISCORD_TOKEN'))
-
 # Запуск HTTP-сервера
 keep_alive()
+
+# Запуск бота
+bot.run(os.getenv('DISCORD_TOKEN'))
